@@ -13,7 +13,7 @@ async function fetchImages() {
     // CONVERTS THE DATA TO HTML AND INSERTS IT INTO THE gallery ID TAG 
     gallery.innerHTML = data.map((image) => {
         return ` 
-          <div>
+          <div class = "rounded-lg shadow overflow-hidden">
             <img src="${image.download_url}" alt="Random image by ${image.author}" />
           </div>`;
       })
