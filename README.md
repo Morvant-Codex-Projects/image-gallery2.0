@@ -48,7 +48,7 @@
 
 3. Deploy it using GitHub Pages
 
-4.Submit both:
+4. Submit both:
 
 - GitHub Repo URL (e.g., `https://github.com/yourname/image-gallery`)
 
