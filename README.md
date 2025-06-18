@@ -1,6 +1,6 @@
 # IMAGE GALLERY
 
-# Requirements
+## Requirements
 
 ## Base Requirements (Complete All)
 
@@ -14,9 +14,9 @@
 
 - Each image should appear inside a styled card:
 
-    - Add rounded-lg, shadow, and overflow-hidden
+  - Add rounded-lg, shadow, and overflow-hidden
 
-    - Images should use w-full h-60 object-cover for uniform size
+  - Images should use w-full h-60 object-cover for uniform size
 
 ### 2. Apply Responsive Design
 
@@ -26,9 +26,9 @@
 
 - Add an interactive hover state:
 
-    - Example: hover:scale-105 transition duration-300 ease-in-out
-
-    - Use group and group-hover if you want to reveal info or overlays
+  - Example: hover:scale-105 transition duration-300 ease-in-out
+  
+  - Use group and group-hover if you want to reveal info or overlays
 
 ## Stretch Goals (Optional)
 
@@ -50,6 +50,6 @@
 
 4.Submit both:
 
-- GitHub Repo URL (e.g., https://github.com/yourname/image-gallery)
+- GitHub Repo URL (e.g., `https://github.com/yourname/image-gallery`)
 
-- GitHub Pages URL (e.g., https://yourname.github.io/image-gallery)
+- GitHub Pages URL (e.g., `https://yourname.github.io/image-gallery`)
