@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link href="tailwind.css" rel="stylesheet" />
+    <link href="flexbox.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="POKEMON.js" defer></script>
+    <script src="image-gallery.js" defer></script>
+  </head>
+  <body class="bg-amber-300">
+    <header class="grid grid-cols-5 gap-5">
+      <a href="index.html" class="bg-red-600">Home</a>
+      <a href="pokemon.html" class="bg-red-600">Pokemon</a>
+      <a href="Image-Gallery.html" class="bg-red-600">Image Gallery</a>
+      <a href="flexbox.html" class="bg-red-600">Flexbox</a>
+      <a href="tailwindFlexbox.html" class="bg-red-600">Tailwind</a>
+    </header>
+    <main>
+      <h1 class="bg-amber-800 p-7">Image Gallery</h1>
+      <div
+        id="gallery"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+      ></div>
+    </main>
+    <footer>&copy Morvant-Codex-Projects</footer>
+  </body>
+</html>
